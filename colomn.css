@@ -1,0 +1,80 @@
+.left-column{
+    background-color: rgb(232, 232, 245);
+    float: left;
+    position: sticky;
+    flex-basis: 15%; 
+    height: 100vh; 
+    align-self: flex-start;
+    
+}
+.mid-column{
+    flex-basis: 47%;
+    /* align-self: flex-start; */
+    background-color: white;
+    transition: none;
+   border-radius: 5px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;   
+}
+
+.left-column li {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+  
+}
+.mid-column{
+     flex-basis: 47%;
+     background-color: white;
+     transition: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;   
+}
+.mid-column img{
+    width: 50px;
+    height: 50px;
+}
+.mid-column i{
+    color: rgba(245, 89, 32, 0.74);
+    font-size: 15px;
+
+}
+
+.mid-column input{
+    border-radius: 50px;
+    margin-left: 400px;
+    align-items: center;
+    
+}
+.mid-column button{
+    color: brown;
+    background-color: aqua;
+    cursor: pointer;
+}
+.mid-column button:hover{
+    opacity: 0.8;
+    background-color: blue;
+}
+.mid-column img{
+    width: 100px;
+    height: 50px;
+}
+h2{
+    color: coral;
+}
+h3{
+    padding-top: 10px;
+    text-align: center;
+    color: chocolate;
+
+}
+.star-container i {
+    color: #EA322E;
+    font-size: 10px;
+    margin-right: 6px;
+}
+.c{
+    color: blue;
+}
+
+
+

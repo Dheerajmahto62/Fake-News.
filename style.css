@@ -1,0 +1,146 @@
+body{
+    background-color:  rgb(225, 225, 228);
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* justify-content: space-evenly; */
+    padding: 5px 13%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    
+    
+}
+.container{
+    background-color: rgb(36, 112, 132);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    width: 74%;
+    overflow: hidden;
+
+        
+}
+.container ul{
+    list-style: none;
+    margin: 5px;
+    
+}
+.container li a{
+    text-decoration: none;
+    display: block;
+    list-style: none;
+
+}
+.style{
+    color: white;
+}
+.search-bar input {
+    border-radius: 2px;
+    width: 300px;
+    height: 30px;
+    border: 0px solid white;
+    
+    
+
+}
+.search-bar button img{
+    height: 17px
+    /* display: flex;
+    align-items: center; */
+    
+    
+
+    
+}
+.search-bar button{
+    /* margin-right: 200px; */
+    margin-right: 0px;
+    float: right;
+    height: 30px;
+    border-radius: 2px;
+    border:  0px solid;
+    cursor: pointer;
+    background: white;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.login , .about , .home{
+    
+    list-style:none;
+    padding: auto;
+    margin: 10px;
+    /* float: right; */
+    cursor: pointer;
+    /* justify-content: space-around; */
+ 
+}
+
+.login a, .about a , .home a{
+    color: white;
+    cursor: pointer;
+    
+    
+    
+}
+/* .home a{ */
+    /* margin-left: 250px; */
+    
+/* } */
+.login a:hover, .about a:hover , .home a:hover{
+    opacity: 0.5;
+    color: rgb(255, 0, 0);
+}
+
+.container-1{
+    background-color: rgb(220, 220, 226);
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    /* max-width: 80vw; */
+    width: 100%;
+    
+    
+}
+
+.b a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;   
+
+}
+.top-news{
+    border: 2px;
+    float: right;
+    /* background-color: aliceblue; */
+    margin-left: 50px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 15px;
+    
+    
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
+
